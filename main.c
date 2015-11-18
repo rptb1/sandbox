@@ -2,9 +2,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <err.h>
 
 int main(void) {
         if (puts("Hello, world!") == EOF)
-                return EXIT_FAILURE;
+		err(EXIT_FAILURE, "puts");
         return EXIT_SUCCESS;
 }
