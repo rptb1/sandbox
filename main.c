@@ -1,3 +1,5 @@
+/* main.c -- a proper hello world program! */
+
 #include <stdio.h>
 #include <stdlib.h>
 
