@@ -5,7 +5,8 @@
 #include <err.h>
 
 int main(void) {
-        if (puts("Hello, world!") == EOF)
+        if (puts("Hello, world!") == EOF) {
 		err(EXIT_FAILURE, "Something went wrong with puts");
+	}
         return EXIT_SUCCESS;
 }
